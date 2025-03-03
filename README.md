@@ -1,5 +1,5 @@
 title: "Shiny App for PDF Summarization and Chatbot Interaction"
-author: "Your Name"
+author: "Mohammad Wasim Shekh"
 output: github_document
 ---
 
