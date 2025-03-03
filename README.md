@@ -1,4 +1,3 @@
-
 title: "Shiny App for PDF Summarization and Chatbot Interaction"
 author: "Your Name"
 output: github_document
@@ -35,12 +34,16 @@ install.packages(c("shiny", "httr", "pdftools", "tesseract"))
 Set Up OpenAI API Key
 To use the chatbot functionality and get summaries of your PDF files, you'll need an OpenAI API key. You can obtain one by creating an account on the OpenAI platform.
 
-Once you have your API key, set it as an environment variable or pass it directly to the app. Here's an example of setting it as an environment variable:
+Once you have your API key, simply copy and paste it into the section of the code where it says paste your api key here. There is no need to set it as an environment variable manually.
+
+For example, in the app’s code, find the following line:
 
 r
 Copy
 Edit
-Sys.setenv(OPENAI_API_KEY = "your-openai-api-key")
+api_key <- ""
+Type your actual OpenAI API key in between the quotations "".
+
 How to Run the App
 Clone this repository or download the R Markdown file.
 Open the file in RStudio.
