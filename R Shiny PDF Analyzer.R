@@ -3,6 +3,7 @@ library(pdftools)
 library(httr)
 library(tesseract)
 
+
 # OpenAI API Key (Directly defined in the script)
 api_key <- ""
 options(shiny.maxRequestSize = 100*1024^2)  # Set max file upload size to 100MB
